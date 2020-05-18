@@ -1,0 +1,14 @@
+#using __repr__() to tell how to represent the class object 
+class Point3D(object):
+  def __init__(self, x, y, z):
+    self.x = x
+    self.y = y
+    self.z = z
+    
+  def __repr__(self):
+    return "(%d, %d, %d)" % (self.x, self.y, self.z)
+    
+my_point = Point3D(1, 2, 3)
+print my_point
+
+#o/p: (1, 2,3)
