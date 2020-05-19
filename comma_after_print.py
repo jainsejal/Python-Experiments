@@ -1,4 +1,4 @@
-# using "," character in after print. makes sure that the next print statement keep on printingon same line
+# using "," character in after print, makes sure that the next print statement keep printing on same line
 phrase = "A bird in the hand..."
 
 # Add your for loop
